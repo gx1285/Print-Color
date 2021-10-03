@@ -5,7 +5,7 @@ def Redprint(value):
 def Blueprint(value):
   BLUE = '\033[34m'
   END = '\033[0m'
-  print(BLUE+ value + END)
+  print(BLUE + value + END)
 def Greenprint(value):
   GREEN = '\033[32m'
   END = '\033[0m'
