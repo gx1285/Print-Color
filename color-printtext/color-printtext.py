@@ -36,6 +36,7 @@ def REDwinprint(value):
   fg_color = 0x0004 | 0x0008
   cutil.SetConsoleAttribute(cutil.stdout_handle,
                            fg_color | info_.wAttributes & 0x0070)
+  cutil.SetConsoleAttribute(cutil.stdout_handle, info_.wAttributes)        
 def Bluewinprint(value):
   from ctypes import windll, Structure, byref, wintypes
 
