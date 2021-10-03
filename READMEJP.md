@@ -9,12 +9,12 @@ printの色を指定するモジュール。
 pip install color-printtext
 ```
 でインストール(Pathを通した場合)
-サンプル
+コードのサンプル
 ```py
 import colorprinttext
 colorprinttext.REDprint("test")
 ```
-Windows サンプル
+Windowsのサンプル
 ```py
 import colorprinttext
 colorprinttext.REDwinprint("test")
