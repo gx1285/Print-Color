@@ -83,7 +83,7 @@ def Greenwinprint(value):
   cutil.SetConsoleAttribute(cutil.stdout_handle,
                            fg_color | info_.wAttributes & 0x0070)
   print(value)
-  cutil.SetConsoleAttribute(cutil.stdout_handle, info_.wAttributes
+  cutil.SetConsoleAttribute(cutil.stdout_handle, info_.wAttributes)
 def Yellowwinprint(value):
   from ctypes import windll, Structure, byref, wintypes
 
