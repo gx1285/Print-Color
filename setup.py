@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    namec"color-printtext",
-    version="0.0.1",
+    name="color-printtext",
+    version="0.1",
     author="gx1285",
     author_email="runay2342@gmail.com",
     description="PrintColor",
