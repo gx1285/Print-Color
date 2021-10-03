@@ -2,5 +2,5 @@
 A module that specifies the color of print.
 # How to use
 ```sh
-pip
+pip install color-printtext
 ```
