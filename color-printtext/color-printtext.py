@@ -6,10 +6,6 @@ def Blueprint(value):
   BLUE = '\033[34m'
   END = '\033[0m'
   print(RED + value + END)
-def Blackprint(value):
-  BLACK = '\033[30m'
-  END = '\033[0m'
-  print(RED + value + END)
 def REDwinprint(value):
   from ctypes import windll, Structure, byref, wintypes
 
