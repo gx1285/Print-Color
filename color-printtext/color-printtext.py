@@ -1,5 +1,13 @@
-def REDprint(value):
+def Redprint(value):
   RED = '\033[31m'
+  END = '\033[0m'
+  print(RED + value + END)
+def Blueprint(value):
+  BLUE = '\033[34m'
+  END = '\033[0m'
+  print(RED + value + END)
+def Blackprint(value):
+  BLACK = '\033[30m'
   END = '\033[0m'
   print(RED + value + END)
 def REDwinprint(value):
