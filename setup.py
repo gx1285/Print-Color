@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="color-printtext",
-    version="0.1.6",
+    version="0.2",
     author="gx1285",
     author_email="runay2342@gmail.com",
     description="PrintColor",
