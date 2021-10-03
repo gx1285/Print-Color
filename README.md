@@ -4,3 +4,9 @@ A module that specifies the color of print.
 ```sh
 pip install color-printtext
 ```
+Install with 
+Sample code
+```py
+import colorprinttext
+colorprinttext.REDprint("test")
+```
