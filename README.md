@@ -1,4 +1,5 @@
 # color-printtext
+![pypivertion](https://img.shields.io/pypi/v/color-printtext.svg)
 A module that specifies the color of print.
 # How to use
 ```sh
