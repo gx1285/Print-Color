@@ -1,1 +1,0 @@
-from printtextcolor.printtextcolor import *
