@@ -23,10 +23,10 @@ Install with
 Sample code
 ```py
 import colorprinttext
-colorprinttext.REDprint("TEST")
+colorprinttext.Redprint("TEST")
 ```
 Windows Sample code
 ```py
 import colorprinttext
-colorprinttext.REDwinprint("test")
+colorprinttext.Redwinprint("test")
 ```
