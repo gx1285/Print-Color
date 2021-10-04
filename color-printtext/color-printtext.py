@@ -1,19 +1,24 @@
-def Redprint(value):
-  RED = '\033[31m'
-  END = '\033[0m'
-  print(RED + value + END)
-def Blueprint(value):
-  BLUE = '\033[34m'
-  END = '\033[0m'
-  print(BLUE + value + END)
-def Greenprint(value):
-  GREEN = '\033[32m'
-  END = '\033[0m'
-  print(GREEN + value + END)
-def Yellowprint(value):
-  YELLOW = '\033[33m'
-  END = '\033[0m'
-  print(YELLOW + value + END)
+def print(color, value):
+  if color == "Green":
+    Green = '\033[32m'
+    END = '\033[0m'
+    print(Green + value + END)
+  elif color == "Yellow":
+    Yellow = '\033[33m'
+    END = '\033[0m'
+    print(Yellow + value + END)
+  elif color == "Red":
+    Red = '\033[31m'
+    END = '\033[0m'
+    print(Red + value + END)
+  elif color == "Blue":
+    Blue = '\033[34m'
+    END = '\033[0m'
+    print(Blue + value + END)
+  else:
+    Red = '\033[31m'
+    END = '\033[0m'
+    print(Red + "[Error] The specified color cannot be found." + END)
 def REDwinprint(value):
   from ctypes import windll, Structure, byref, wintypes
 
