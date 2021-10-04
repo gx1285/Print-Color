@@ -1,16 +1,33 @@
+import time
+def sleep(value:int):
+  """Sleeps the operation for the specified number of seconds.
+Added in Ver 0.3"""
+  time.sleep(int(value))
+def vertion(value):
+  """Shows the current version.
+Added in ver 0.3"""
+  print("Color-PrintText Vertion 0.3")
 def Redprint(value):
+  """Display red text on the console
+Added in ver 0.1"""
   RED = '\033[31m'
   END = '\033[0m'
   print(RED + value + END)
 def Blueprint(value):
+  """Display blue text on the console
+Added in ver 0.2"""
   BLUE = '\033[34m'
   END = '\033[0m'
   print(BLUE + value + END)
 def Greenprint(value):
+  """Display green text on the console
+Added in ver 0.2"""
   GREEN = '\033[32m'
   END = '\033[0m'
   print(GREEN + value + END)
 def Yellowprint(value):
+  """Display yellow text on the console
+Added in ver 0.2"""
   YELLOW = '\033[33m'
   END = '\033[0m'
   print(YELLOW + value + END)
