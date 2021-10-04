@@ -1,6 +1,6 @@
 ＃color-printtext
 ![pypivertion](https://img.shields.io/pypi/v/color-printtext.svg)
-![pythonvertion](https://img.shields.io/pypi/pyversions/color-printtext.svg)
+![pythonvertion](https://img.shields.io/pypi/pyversions/color-printtext.svg)  
 [pypi](https://pypi.org/project/color-printtext/)  
 printの色を指定するモジュール。
 [wiki](https://github.com/gx1285/color-printtext/wiki)
