@@ -1,7 +1,6 @@
 # color-printtext
-![pypivertion](https://img.shields.io/pypi/v/color-printtext.svg)
-<a href="https://github.com/gx1285/color-printtext/actions"><img src="https://github.com/gx1285/color-printtext/workflows/Testing/badge.svg" alt="Build status" /></a>
-![pythonvertion](https://img.shields.io/pypi/pyversions/color-printtext.svg)  
+<a href="https://pypi.org/project/color-printtext/"><img src="https://img.shields.io/pypi/v/color-printtext.svg" alt="pypi Vertion" /></a>
+<a href="https://pypi.org/project/color-printtext/"><img src="https://img.shields.io/pypi/pyversions/color-printtext.svg" alt="Python Vertion" /></a>  
 [pypi](https://pypi.org/project/color-printtext/)  
 A module that specifies the color of print.  
 [wiki](https://github.com/gx1285/color-printtext/wiki)
