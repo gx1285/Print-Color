@@ -1,8 +1,10 @@
 import time
+
 def sleep(value:int):
   """Sleeps the operation for the specified number of seconds.
 Added in Ver 0.3"""
   time.sleep(int(value))
+  
 def vertion(value):
   """Shows the current version.
 Added in ver 0.3"""
