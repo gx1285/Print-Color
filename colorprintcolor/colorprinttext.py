@@ -33,6 +33,9 @@ def vertion_check():
 def sleep(value=None):
   """Sleeps the operation for the specified number of seconds.
 Added in Ver 1.0"""
+  ctp_vertion = requests.get('https://raw.githubusercontent.com/gx1285/color-printtext/main/vertion.txt')
+  if f"{ver}\n" != ctp_vertion.text:
+        print(f"Latest Version{ctp_vertion.text}has been released.\nYour version is\n{ver}So, it needs to be updated.\nPlease update with pip.")
   if value == None:
       raise TypeError('The number of seconds of sleep is not specified.')
   elif type(value) == str:
@@ -42,4 +45,7 @@ Added in Ver 1.0"""
 def vertion():
   """Shows the current version.
 Added in ver 1.0"""
+  ctp_vertion = requests.get('https://raw.githubusercontent.com/gx1285/color-printtext/main/vertion.txt')
+  if f"{ver}\n" != ctp_vertion.text:
+        print(f"Latest Version{ctp_vertion.text}has been released.\nYour version is\n{ver}So, it needs to be updated.\nPlease update with pip.")
   print(f"Color-PrintText Vertion {ver}")
