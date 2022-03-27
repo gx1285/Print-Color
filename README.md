@@ -19,5 +19,5 @@ Install with
 Sample code
 ```py
 import colorprinttext
-colorprinttext.Redprint("TEST")
+colorprinttext.cprint('test','red')
 ```
