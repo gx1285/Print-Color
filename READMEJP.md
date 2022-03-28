@@ -3,18 +3,20 @@
 ![pypivertion](https://img.shields.io/pypi/v/color-printtext.svg)
 ![pythonvertion](https://img.shields.io/pypi/pyversions/color-printtext.svg)  
 [pypi](https://pypi.org/project/color-printtext/)  
-[wiki](https://github.com/gx1285/color-printtext/wiki)  
-printの色を指定するモジュール。
-# 使い方
-通常版
+[wiki](https://github.com/gx1285/color-printtext/blob/main/docs/index-jp.md)  
+printの色を指定するモジュール。<br>
+pipを使用してインストールすることができます。
 ```sh
-＃Linux/macOS
 python3 -m pip install -U color-printtext
-
-＃ Windows
+```
+Windowsでは、このコマンドでインストールすることができます。
+```sh
 py -3 -m pip install -U color-printtext
 ```
-でインストールします。
+PATHが通っている場合は、このコマンドでインストールすることができます。
+```sh
+pip install -U color-printtext
+```
 サンプルコード
 ```py
 import colorprinttext

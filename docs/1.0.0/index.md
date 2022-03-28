@@ -13,7 +13,7 @@ If you have passed PATH, you can install it with this command.
 pip install -U color-printtext
 ```
 ## Quick Start
-For example, let's output red text
+For example, let's output red text<br>
 Writing it this way will make it happen.
 ```py
 from colorprinttext import cprint
