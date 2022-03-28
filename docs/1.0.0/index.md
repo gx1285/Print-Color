@@ -16,6 +16,6 @@ pip install -U color-printtext
 For example, let's output red text
 Writing it this way will make it happen.
 ```py
-from colortextprint import cprint
-cprint()
+from colorprinttext import cprint
+cprint("text","red")
 ```
