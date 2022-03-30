@@ -24,7 +24,7 @@ SOFTWARE.
 ver = "v1.0.0"
 import requests
 import time
-def vertion_check():
+def version_check():
     """Check to see if a new version has been released.
     Added in Ver 1.0"""
     ctp_vertion = requests.get('https://raw.githubusercontent.com/gx1285/color-printtext/main/vertion.txt')
@@ -44,7 +44,7 @@ Added in Ver 1.0"""
       raise TypeError('an integer is required (got type str)')
   time.sleep(seconds)
 
-def vertion():
+def version():
   """Shows the current version.
 Added in ver 1.0"""
   ctp_vertion = requests.get('https://raw.githubusercontent.com/gx1285/color-printtext/main/vertion.txt')
