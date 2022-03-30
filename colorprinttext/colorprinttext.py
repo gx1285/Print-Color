@@ -27,17 +27,17 @@ import time
 def version_check():
     """Check to see if a new version has been released.
     Added in Ver 1.0"""
-    ctp_vertion = requests.get('https://raw.githubusercontent.com/gx1285/color-printtext/main/vertion.txt')
-    if f"{ver}\n" != ctp_vertion.text:
-        print(f"Latest Version{ctp_vertion.text}has been released.\nYour version is\n{ver}So, it needs to be updated.\nPlease update with pip.")
+    ctp_version = requests.get('https://raw.githubusercontent.com/gx1285/color-printtext/main/version.txt')
+    if f"{ver}\n" != ctp_version.text:
+        print(f"Latest Version{ctp_version.text}has been released.\nYour version is\n{ver}So, it needs to be updated.\nPlease update with pip.")
         return
     print("The latest version is installed.({ver})")
 def sleep(seconds=None):
   """Sleeps the operation for the specified number of seconds.
 Added in Ver 1.0"""
-  ctp_vertion = requests.get('https://raw.githubusercontent.com/gx1285/color-printtext/main/vertion.txt')
-  if f"{ver}\n" != ctp_vertion.text:
-        print(f"Latest Version{ctp_vertion.text}has been released.\nYour version is\n{ver}So, it needs to be updated.\nPlease update with pip.")
+  ctp_version = requests.get('https://raw.githubusercontent.com/gx1285/color-printtext/main/version.txt')
+  if f"{ver}\n" != ctp_version.text:
+        print(f"Latest Version{ctp_version.text}has been released.\nYour version is\n{ver}So, it needs to be updated.\nPlease update with pip.")
   if seconds == None:
       raise TypeError('The number of seconds of sleep is not specified.')
   elif type(seconds) == str:
@@ -47,14 +47,14 @@ Added in Ver 1.0"""
 def version():
   """Shows the current version.
 Added in ver 1.0"""
-  ctp_vertion = requests.get('https://raw.githubusercontent.com/gx1285/color-printtext/main/vertion.txt')
-  if f"{ver}\n" != ctp_vertion.text:
-        print(f"Latest Version{ctp_vertion.text}has been released.\nYour version is\n{ver}So, it needs to be updated.\nPlease update with pip.")
-  print(f"Color-PrintText Vertion {ver}")
+  ctp_version = requests.get('https://raw.githubusercontent.com/gx1285/color-printtext/main/version.txt')
+  if f"{ver}\n" != ctp_version.text:
+        print(f"Latest Version{ctp_version.text}has been released.\nYour version is\n{ver}So, it needs to be updated.\nPlease update with pip.")
+  print(f"Color-PrintText version {ver}")
 def cprint(text=None,color=None):
-  ctp_vertion = requests.get('https://raw.githubusercontent.com/gx1285/color-printtext/main/vertion.txt')
-  if f"{ver}\n" != ctp_vertion.text:
-        print(f"Latest Version{ctp_vertion.text}has been released.\nYour version is\n{ver}So, it needs to be updated.\nPlease update with pip.")
+  ctp_version = requests.get('https://raw.githubusercontent.com/gx1285/color-printtext/main/version.txt')
+  if f"{ver}\n" != ctp_version.text:
+        print(f"Latest Version{ctp_version.text}has been released.\nYour version is\n{ver}So, it needs to be updated.\nPlease update with pip.")
   if color == None:
     raise TypeError('Argument "color" is missing.')
   elif text == None:
