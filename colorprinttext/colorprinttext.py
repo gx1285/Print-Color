@@ -22,6 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 ver = "v1.0.0"
+from typing import Type
 import requests
 import time
 def version_check():
@@ -52,6 +53,10 @@ Added in ver 1.0"""
         print(f"Latest Version{ctp_version.text}has been released.\nYour version is\n{ver}So, it needs to be updated.\nPlease update with pip.")
   print(f"Color-PrintText version {ver}")
 def cprint(text=None,color=None):
+  """
+  colored print
+  Added in ver 1.0
+  """
   ctp_version = requests.get('https://raw.githubusercontent.com/gx1285/color-printtext/main/version.txt')
   if f"{ver}\n" != ctp_version.text:
         print(f"Latest Version{ctp_version.text}has been released.\nYour version is\n{ver}So, it needs to be updated.\nPlease update with pip.")
@@ -59,6 +64,10 @@ def cprint(text=None,color=None):
     raise TypeError('Argument "color" is missing.')
   elif text == None:
     raise TypeError('Argument "text" is missing.')
+  elif type(color) == int:
+    raise TypeError('This argument is type str, but we got type int.')
+  elif type(colo) == int:
+    raise TypeError('This argument is type str, but we got type int.')
   elif color == "nomal":
     print('\033[01m'+ text +'\033[0m')
   elif color == "translucent":
