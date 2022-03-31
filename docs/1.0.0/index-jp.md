@@ -19,3 +19,6 @@ pip install -U color-printtext
 from colorprinttext import cprint
 cprint("text","red")
 ```
+## cprint
+### text引数
+- 
