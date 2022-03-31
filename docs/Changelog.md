@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.0] - 2022-04-01
+## [1.0.0]() - 2022-04-01
 ### Added
 - Addition of a version checking function.
 - Added cprint function.
@@ -18,7 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 - Redprint() etc.
 
-## [0.2.2] - 2021-10-03
+## [0.2.2](https://github.com/gx1285/color-printtext/releases/tag/0.2.2) - 2021-10-03
 ### Fixed
 - bug that color does not return
 
