@@ -22,19 +22,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - bug that color does not return
 
-## [0.2.1] - 2021-10-03
+## [0.2.1](https://github.com/gx1285/color-printtext/releases/tag/0.2.1) - 2021-10-03
 ### Fixed
 - () added.
 
-## [0.2.0] - 2021-10-03
+## [0.2.0](https://github.com/gx1285/color-printtext/releases/tag/0.2.0) - 2021-10-03
 ### Added
 - Green,Blue,Yellow Color added.
 
-## [0.1.6] - 2021-10-03
+## [0.1.6](https://github.com/gx1285/color-printtext/releases/tag/0.1.6) - 2021-10-03
 ### Added
 - Compatible with Windows (red only)
 
-## [0.1.0] - 2021-10-03
+## [0.1](https://github.com/gx1285/color-printtext/releases/tag/0.1) - 2021-10-03
 ### Added
 - Added REDprint function.
 
