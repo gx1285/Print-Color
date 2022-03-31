@@ -17,7 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Addition of English and Japanese documentation.
 ### Removed
 - Redprint() etc.
-
+- Not Windows Support
 ## [0.2.2](https://github.com/gx1285/color-printtext/releases/tag/0.2.2) - 2021-10-03
 ### Fixed
 - bug that color does not return
