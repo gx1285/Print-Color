@@ -69,3 +69,4 @@ cprint("text","red")
 
 -------
 ## version_check()
+**バージョンの更新確認をする関数。**
