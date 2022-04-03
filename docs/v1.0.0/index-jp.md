@@ -23,6 +23,8 @@ cprint("text","red")
 # APIリファレンス
 ## cprint(text,color)
 **色つきprintを出力する関数**
+<br>v1.0.0で追加。
+
 ----------
 ## text<br>
 内容を入力する引数。
@@ -60,13 +62,16 @@ cprint("text","red")
 ## version()
 **バージョンを確認する関数。**<br>
 実行結果: Color-PrintText version v1.0.0
+<br>v1.0.0で追加。
 
 -------
 ## sleep(seconds:int)
 **secondsに指定した秒数停止。**<br>
 ## seconds
 停止する秒数
+<br>v1.0.0で追加。
 
 -------
 ## version_check()
 **バージョンの更新確認をする関数。**
+<br>v1.0.1で追加。
