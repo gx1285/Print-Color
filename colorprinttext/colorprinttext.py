@@ -31,8 +31,9 @@ def version_check():
     ctp_version = requests.get('https://raw.githubusercontent.com/gx1285/color-printtext/main/version.txt')
     if f"{ver}\n" != ctp_version.text:
         print(f"Latest Version{ctp_version.text}has been released.\nYour version is\n{ver}So, it needs to be updated.\nPlease update with pip.")
-        return
+        return f"Latest Version{ctp_version.text}has been released.\nYour version is\n{ver}So, it needs to be updated.\nPlease update with pip."
     print("The latest version is installed.({ver})")
+    return "The latest version is installed.({ver})"
 def sleep(seconds=None):
   """Sleeps the operation for the specified number of seconds.
 Added in Ver 1.0"""
@@ -52,6 +53,7 @@ Added in ver 1.0"""
   if f"{ver}\n" != ctp_version.text:
         print(f"Latest Version{ctp_version.text}has been released.\nYour version is\n{ver}So, it needs to be updated.\nPlease update with pip.")
   print(f"Color-PrintText version {ver}")
+  return f"Color-PrintText version {ver}"
 def cprint(text=None,color=None):
   """
   colored print
