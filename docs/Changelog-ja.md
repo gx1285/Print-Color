@@ -5,7 +5,13 @@
 また、このプロジェクトは [Semantic Versioning](https://semver.org/spec/v2.0.0.html) を遵守しています。
 
 ## [未発表]
-
+## [1.0.1](https://github.com/gx1285/color-printtext/releases/tag/1.0.1) - 2022-04-03
+### 追加
+- `version_v`関数
+- vertionなどの関数が文字列を返すようになりました。
+### 修正
+- 404 error
+- NameError: 名前 'colo' が定義されていません。
 ## [1.0.0](https://github.com/gx1285/color-printtext/releases/tag/1.0.0) - 2022-04-01
 ### 追加
 - バージョンチェック機能の追加
@@ -40,4 +46,4 @@
 - REDprint 機能を追加しました。
 
 
-[未発表]: https://github.com/gx1285/color-printtext/compare/1.0.0...main
+[未発表]: https://github.com/gx1285/color-printtext/compare/1.0.1...main
