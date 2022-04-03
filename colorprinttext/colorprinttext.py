@@ -70,7 +70,7 @@ def cprint(text=None,color=None):
     raise TypeError('Argument "text" is missing.')
   elif type(color) == int:
     raise TypeError('This argument is type str, but we got type int.')
-  elif type(colo) == int:
+  elif type(color) == int:
     raise TypeError('This argument is type str, but we got type int.')
   elif color == "nomal":
     print('\033[01m'+ text +'\033[0m')
