@@ -7,7 +7,6 @@ setuptools.setup(
     name="color-printtext",
     version="1.0.0",
     author="gx1285",
-    author_email="runay2342@gmail.com",
     description="PrintColor",
     long_description=long_description,
     long_description_content_type="text/markdown",
