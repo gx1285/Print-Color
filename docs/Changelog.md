@@ -6,10 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ## [1.0.1](https://github.com/gx1285/color-printtext/releases/tag/1.0.1) - 2022-04-03
-## Added
+### Added
 - version_v function.
 - vertion and other functions now return strings.
-## Fixed
+### Fixed
 - 404 error
 - NameError: name 'colo' is not defined
 ## [1.0.0](https://github.com/gx1285/color-printtext/releases/tag/1.0.0) - 2022-04-01
