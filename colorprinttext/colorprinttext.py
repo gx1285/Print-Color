@@ -22,6 +22,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 ver = "v1.0.0"
+def version_v():
+    return ver
 from typing import Type
 import requests
 import time
