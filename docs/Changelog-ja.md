@@ -5,6 +5,9 @@
 また、このプロジェクトは [Semantic Versioning](https://semver.org/spec/v2.0.0.html) を遵守しています。
 
 ## [未発表]
+## [1.0.2](https://github.com/gx1285/color-printtext/releases/tag/1.0.2) - 2022-08-11
+### Fixed
+- version_check が正しく動作しない不具合を修正しました。
 ## [1.0.1](https://github.com/gx1285/color-printtext/releases/tag/1.0.1) - 2022-04-03
 ### 追加
 - `version_v`関数
